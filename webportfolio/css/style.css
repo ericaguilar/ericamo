@@ -1,0 +1,166 @@
+
+
+#linkedin {color:rgb(0,127,170);}
+#fcc {color:rgb(0,153,76);}
+#facebook {color:rgb(59,89,163);}
+
+#banner {background-color:black;
+   }
+.navpills {
+  font-size:2.5 em;
+  background-color:black;
+   padding:0px;
+    text-align:center;
+    margin:0 auto;
+  opacity:0.7;
+   }
+
+body{
+    font-family:Lobster;
+  background-color: #390a1b;
+  color:white;
+  margin:0 auto;
+}
+
+h1{
+padding:0px;
+margin-top:15px;
+font-size:5.0em;  
+}
+
+p{
+  font-size:1.0em;
+}
+
+.block{
+  background-color:black;
+  opacity:0.7;
+  padding:10px;
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:50%;
+}
+
+.btn-primary{
+background-color:black; 
+  border-color:black;
+  margin:0 auto;
+  color:blue;
+  font-size:1.5em;
+}
+
+.btnList{
+  padding-top:10px;
+}
+
+#footer1{
+  padding-top:1px;
+  color: solid gray;
+  background-color: #aaa;
+  text-align:center;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+
+#me {
+  height:50%;
+  border-radius:50%;
+    text-align:center;
+  opacity:0.9;
+}
+
+.randompic{
+  margin-top:100px;
+}
+
+
+.paddingTop {
+  padding-top:2px;
+  padding-bottom:2px;
+}
+.aboutmesection {  padding-top:10%;
+    padding-left:10%;
+}
+.aboutmesection>p { 
+font-family:Sans;}
+
+.pageOne {
+ background:url("One-Bowl-Eggnog-Cupcakes-Baker-By-Nature-600x900.png");
+background-size:cover;
+ padding-bottom:20%;
+margin-top:0%;
+  height:900px;
+}
+
+.pageTwo {
+ /*background:url(One-Bowl-Eggnog-Cupcakes-Baker-By-Nature-600x900.png);*/
+  background-color:#ca686e;
+background-size:cover;
+ height:900px;
+margin-top:0%;
+  padding-top:5%;
+    padding-left:5%;
+  color:blue;
+}
+
+.pageThree {
+ /*background:url(One-Bowl-Eggnog-Cupcakes-Baker-By-Nature-600x900.png);*/
+  background-color:#9968ca;
+background-size:cover;
+height:900px;
+margin-top:0%;
+  color:white;
+    padding-top:5%;
+    padding-left:5%;
+}
+
+.pageFour {
+ /*background:url(One-Bowl-Eggnog-Cupcakes-Baker-By-Nature-600x900.png);*/
+  background-color:#688fca;
+background-size:cover;
+height:900px;
+margin-top:0%;
+  color:white;
+    padding-top:5%;
+    padding-left:5%;
+}
+
+.form-item {
+  font-size:1.0em;
+  width:80%;
+  margin-left:20px;
+  color:black;
+  
+  }
+
+
+
+#change {
+  height:50px;
+  overflow:hidden;
+}
+
+#change > div > div {
+  padding:4px 12px;
+  height:45px;
+  margin-bottom:50px;
+  display:inline-block;
+}
+
+#change div:first-child {
+  animation: show 8s linear infinite;
+}
+
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
